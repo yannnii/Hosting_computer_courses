@@ -7,9 +7,9 @@ import java.sql.*;
 
 public class CourseDB {
 
-    private static String url = "jdbc:mysql://localhost:3306/computer_courses?useSSL=false&serverTimezone=UTC&characterEncoding=utf8";
+    private static String url = "jdbc:mysql://node186572-env-9109343.jelastic.regruhosting.ru/computer_courses?useSSL=false&serverTimezone=UTC&characterEncoding=utf8";
     private static String username = "root";
-    private static String password = "root";
+    private static String password = "LCOaam90587";
 
     public static ArrayList<Course> selectOne(String email) {
 
