@@ -28,7 +28,7 @@ public class AuthDao {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/computer_courses?useSSL=false&serverTimezone=UTC", "root", "root");
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://node186572-env-9109343.jelastic.regruhosting.ru/computer_courses?useSSL=false&serverTimezone=UTC", "root", "LCOaam90587");
 
              PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USERS_SQL)) {
             preparedStatement.setString(1, user.getLogin());
